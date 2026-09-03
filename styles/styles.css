@@ -133,6 +133,10 @@ nav a:link:hover {
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
+nav a:visited {
+	color: #a9a9a9;
+}
+
 nav .left {
 	display: inline;
 	position: absolute;
