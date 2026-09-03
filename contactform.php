@@ -7,7 +7,7 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     
-    $mailTo = "admin@snopoint.com";
+    $mailTo = "admin@eneroh.com";
     $headers = "From: " .$mailfrom;
     $txt = "You have received an e-mail from " .$fname $lname from $country.".\n\n".$message;
     
