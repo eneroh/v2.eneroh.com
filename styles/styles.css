@@ -123,13 +123,13 @@ nav a:link {
 	margin: 0 1%;
 	padding: 15px;
 	font-size: 100%;
-	color: #f4f4f4;
+	color: #a9a9a9;
 	text-decoration: none;
 }
 
 nav a:link:hover {
 	/*background-color: #007eff;*/
-	color: #1a8bff;
+	color: #f4f4f4;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
@@ -183,7 +183,7 @@ nav .navhead {
 }
 
 .navmain a {
-	color: #f4f4f4;
+	color: #a9a9a9;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 16px;
@@ -191,19 +191,19 @@ nav .navhead {
 }
 
 .navmain a:hover {
-	background-color: #1a8bff; 	
+	background-color: #f4f4f4; 	
 	color: #f4f4f4;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
 .navmain a:hover:not(.active) {
-	background-color: #1a8bff;
+	background-color: #a9a9a9;
 	color: #1b1c23;
 
 }
 
 .active {
-  background-color: #007eff;
+  background-color: #000;
   color: #000;
 }
 
@@ -560,7 +560,7 @@ a:visited {
 }
 
 a.emphasis:hover {
-	color: #077eff;
+	color: #000;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
