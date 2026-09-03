@@ -564,12 +564,12 @@ a:active {
 	color: #007eff;
 }*/
 
-a:visited {
+/*a:visited {
 	color: #f4f4f4;	
-}
+}*/
 
 a.emphasis:hover {
-	color: #000;
+	color: #f4f4f4;
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;	
 }
 
