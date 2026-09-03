@@ -345,11 +345,11 @@ footer a:hover {
 	transition: color 0.5s ease-out, box-shadow 0.5s ease-out;
 }
 
-a.emphasis {
+.infobody a.emphasis {
 	color: #a9a9a9;
 }
 
-a.emphasis:hover {
+.infobody a.emphasis:hover {
 	color: #f4f4f4;
 }
 
