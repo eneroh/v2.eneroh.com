@@ -1,0 +1,50 @@
+
+# Example 1: Block only Googlebot
+#User-agent: Googlebot
+#Disallow: /
+
+# Example 2: Block Googlebot and Adsbot
+#User-agent: Googlebot
+#User-agent: AdsBots-Google
+#Disallow: /
+
+# Example 3: Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
+#User-agent: *
+#Disallow: /
+
+#User-agent: *
+#Allow: /
+
+# Disallow crawling of files of a specific file type
+#User-agent: *
+#Disallow: /*.gif$
+
+# Disallow crawling of single web page
+User-agent: *
+#Disallow: /<location>/<location>
+
+# Unnecessarybot may not crawl the site, all other bots may
+#User-agent: Unnecessarybot
+#Disallow: /
+
+#User-agent: *
+#Allow: /
+
+# Allow access to a single crawler
+#User-agent: Googlebot-news
+#Allow: /
+
+#User-agent: *
+#Disallow: /
+
+# Disallow crawling of a directory and its contents
+#User-agent: *
+#Disallow: /calendar/
+#Disallow:/junk/
+#Disallow:/books/fiction/contemporary/
+
+# Disallow crawling of the entire site
+#User-agent: *
+#Disallow: /
+
+Sitemap: https://v2.eneroh.com/sitemap.xml
